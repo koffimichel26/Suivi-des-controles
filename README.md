@@ -39,6 +39,7 @@ button{
   background:#FF9800;
   color:white;
   border:none;
+  cursor:pointer;
 }
 
 table{
@@ -73,139 +74,140 @@ th{
 <label>Nom du professeur</label>
 <select id="prof">
   <option>Choisir professeur</option>
+  <!-- Liste des professeurs -->
   <option>ADJE AGUIEBY JOSEPH LOUIS P.</option>
-<option>AHOUMA HERVÉ</option>
-<option>AKÉ N'GUESSAN PARFAIT</option>
-<option>AMANKOU NÉE BROU SIALOU ARSÈNE GÉNEVIÈVE</option>
-<option>ANDOH N'GUESSAN GHISLAIN-PAUL</option>
-<option>ANOH PAUL EMILE</option>
-<option>ASSANDE HAMIAM CESAR</option>
-<option>ATTRI KOFFI JULIEN</option>
-<option>BAH BI YA BLAISE</option>
-<option>Balla Dembélé</option>
-<option>Bamba Idrissa</option>
-<option>Bandaman née Konan Ahou Clémentine</option>
-<option>Biegoua Djoman Emmanuel</option>
-<option>Boni Kamenan Jacques</option>
-<option>Boni Nguessan Arsene</option>
-<option>Brou Bangah Marcel</option>
-<option>Camara née Gbané Awa</option>
-<option>Cisse née Kone Fatoumata</option>
-<option>Cisse Sarah Myriam</option>
-<option>Cissé Ibrahima</option>
-<option>Coulibaly Bakary</option>
-<option>Coulibaly née Ouattara Rokia</option>
-<option>Daro Djibril</option>
-<option>Dey Noélie Nadège</option>
-<option>Diallo Aichata</option>
-<option>Diarassouba Inza</option>
-<option>Diomande Sra Gouane</option>
-<option>Djirieoulou Juldas</option>
-<option>Eba née Kouame Ouassara Aya Jeanne</option>
-<option>Eby Kouah Laurent</option>
-<option>Effi Assande Eric</option>
-<option>Ehoussou Hermann Michel</option>
-<option>Ehui Konin Yves Pacôme</option>
-<option>Essoubo Anouman Aime</option>
-<option>Ettien Gnigouan Desire</option>
-<option>Fadiga Mouhamed dit Douty</option>
-<option>Fagoma Coulibaly</option>
-<option>Fofana nee Gbahi Georgette</option>
-<option>Gah epse Touré Kleon Marthe Esther</option>
-<option>Gaudet Gaubaud Jean Marc</option>
-<option>Gbaka Justine</option>
-<option>Godehi Gnahoré Serge</option>
-<option>Gomeu Minson Peguy</option>
-<option>Guei Kelagnon Celestin</option>
-<option>Gueu née Gogon Audrez</option>
-<option>Guia Zouheudy Ghislain</option>
-<option>Hugues Silvere Monnet</option>
-<option>Kadjo Monson Jeanne d'Arc Epouse N'goran</option>
-<option>Kamagate Adama</option>
-<option>Klioua Cyrille Parfait</option>
-<option>Kobenan Kra Akossua Kan Benedicte</option>
-<option>Koffi Kablan Ferdinand</option>
-<option>Koffi Konan Eric</option>
-<option>Koffi Kouadio Anselme</option>
-<option>Koko N'guessan Francois</option>
-<option>Konan Kouame Williams</option>
-<option>Kone Kassoum</option>
-<option>Koné Lassana</option>
-<option>Koné N'gorogoh Soumaila</option>
-<option>Koua Anouma Cyrille</option>
-<option>Kouadio Adou Thierry</option>
-<option>Kouadio Epouse Yao Apo Jeannette</option>
-<option>Kouadio Sery Christian</option>
-<option>Kouakou Adjoumane</option>
-<option>Kouakou Khofi Serge</option>
-<option>Kouakou Koffi Ben</option>
-<option>Kouakou Kouame David</option>
-<option>Kouame Marnu Kouakou</option>
-<option>Kouao Kouamé Norbert</option>
-<option>Kouassi Odje Gobey Diane Marie Sylvestre</option>
-<option>Kouyaté Kassoum</option>
-<option>Kpla Kouadio Jean Fiacre Hermann</option>
-<option>Kplohi née Diouga Mireille Joelle</option>
-<option>Kra née Kahouma Nicole</option>
-<option>Legbey Kouhonon Odile</option>
-<option>Loba Kpassi Guillaume</option>
-<option>Loukou Kouakou Urbain</option>
-<option>Louoba Tiahue Adolphe</option>
-<option>Mahan Hortense</option>
-<option>Mel Mira Juliana</option>
-<option>Mme Adom née Miézan Obrou Félicité</option>
-<option>Mme Nahounou A. K. Sonia Valérie</option>
-<option>Monnet Monnet</option>
-<option>Monney Achiboni Romain</option>
-<option>Monsekea nee Kouassi Akoua Ange</option>
-<option>Monssan Eric Varèze</option>
-<option>N'doua Konan Yves</option>
-<option>N'guessan Kouamé Germain</option>
-<option>N'guessan Kouassi Jérémi</option>
-<option>Nabi Nongassida Isaac</option>
-<option>Nando Oro Anne-Nathalie</option>
-<option>Onamon Goua Christophe</option>
-<option>Ouabio Stephane Serge</option>
-<option>Ouattara Grâce Magnon Sita</option>
-<option>Ouattara Yelanfi Cecile</option>
-<option>Oulai Epse Yoman Keadjouhi Prudence</option>
-<option>Oumar Fall</option>
-<option>Ouol Lazeni Touré</option>
-<option>Oussou Kouame Medard</option>
-<option>Paul Yao Celestin</option>
-<option>Quenum Elida Zita Valerie</option>
-<option>Rebiere-Idiado Cheick Amed Andre</option>
-<option>Saliou Fatahou</option>
-<option>Samake Madous</option>
-<option>Segui Agoh Françoise Micheline</option>
-<option>Sekongo Ibrahim Kiklotialema</option>
-<option>Siapo Kouassi</option>
-<option>Silue Wakourgo Fanta</option>
-<option>Siro Serges Hubert</option>
-<option>Soffo Bertin</option>
-<option>Soro Lacina</option>
-<option>Soro Tchohona Valy</option>
-<option>Soumahoro Seidou</option>
-<option>Tano Serge</option>
-<option>Tiene Mamadou</option>
-<option>Touali Paulin</option>
-<option>Toure Mamaro</option>
-<option>Touré Bangaly</option>
-<option>Touré Dramane Jean-François</option>
-<option>Traore Epse Egue Mariame</option>
-<option>Traore Fanta</option>
-<option>Traore Ramatou</option>
-<option>Yao Blé Larissa</option>
-<option>Yao Dago Hubert</option>
-<option>Yao Yao Alain-Claude</option>
-<option>Yao Yves Cesar</option>
-<option>Yatte Acho Gilles</option>
-<option>Yoboue Atchelo Pascal</option>
-<option>Yoboué Ahou Lucie Murielle Pulchérie</option>
-<option>Zamblé Bi Boni Clermont</option>
-<option>Zianeie Dethod Elodie</option>
-<option>Zobo Epse Koudou Atte Felicite</option>
-<option>Zoma Lydie Louise</option>
+  <option>AHOUMA HERVÉ</option>
+  <option>AKÉ N'GUESSAN PARFAIT</option>
+  <option>AMANKOU NÉE BROU SIALOU ARSÈNE GÉNEVIÈVE</option>
+  <option>ANDOH N'GUESSAN GHISLAIN-PAUL</option>
+  <option>ANOH PAUL EMILE</option>
+  <option>ASSANDE HAMIAM CESAR</option>
+  <option>ATTRI KOFFI JULIEN</option>
+  <option>BAH BI YA BLAISE</option>
+  <option>Balla Dembélé</option>
+  <option>Bamba Idrissa</option>
+  <option>Bandaman née Konan Ahou Clémentine</option>
+  <option>Biegoua Djoman Emmanuel</option>
+  <option>Boni Kamenan Jacques</option>
+  <option>Boni Nguessan Arsene</option>
+  <option>Brou Bangah Marcel</option>
+  <option>Camara née Gbané Awa</option>
+  <option>Cisse née Kone Fatoumata</option>
+  <option>Cisse Sarah Myriam</option>
+  <option>Cissé Ibrahima</option>
+  <option>Coulibaly Bakary</option>
+  <option>Coulibaly née Ouattara Rokia</option>
+  <option>Daro Djibril</option>
+  <option>Dey Noélie Nadège</option>
+  <option>Diallo Aichata</option>
+  <option>Diarassouba Inza</option>
+  <option>Diomande Sra Gouane</option>
+  <option>Djirieoulou Juldas</option>
+  <option>Eba née Kouame Ouassara Aya Jeanne</option>
+  <option>Eby Kouah Laurent</option>
+  <option>Effi Assande Eric</option>
+  <option>Ehoussou Hermann Michel</option>
+  <option>Ehui Konin Yves Pacôme</option>
+  <option>Essoubo Anouman Aime</option>
+  <option>Ettien Gnigouan Desire</option>
+  <option>Fadiga Mouhamed dit Douty</option>
+  <option>Fagoma Coulibaly</option>
+  <option>Fofana nee Gbahi Georgette</option>
+  <option>Gah epse Touré Kleon Marthe Esther</option>
+  <option>Gaudet Gaubaud Jean Marc</option>
+  <option>Gbaka Justine</option>
+  <option>Godehi Gnahoré Serge</option>
+  <option>Gomeu Minson Peguy</option>
+  <option>Guei Kelagnon Celestin</option>
+  <option>Gueu née Gogon Audrez</option>
+  <option>Guia Zouheudy Ghislain</option>
+  <option>Hugues Silvere Monnet</option>
+  <option>Kadjo Monson Jeanne d'Arc Epouse N'goran</option>
+  <option>Kamagate Adama</option>
+  <option>Klioua Cyrille Parfait</option>
+  <option>Kobenan Kra Akossua Kan Benedicte</option>
+  <option>Koffi Kablan Ferdinand</option>
+  <option>Koffi Konan Eric</option>
+  <option>Koffi Kouadio Anselme</option>
+  <option>Koko N'guessan Francois</option>
+  <option>Konan Kouame Williams</option>
+  <option>Kone Kassoum</option>
+  <option>Koné Lassana</option>
+  <option>Koné N'gorogoh Soumaila</option>
+  <option>Koua Anouma Cyrille</option>
+  <option>Kouadio Adou Thierry</option>
+  <option>Kouadio Epouse Yao Apo Jeannette</option>
+  <option>Kouadio Sery Christian</option>
+  <option>Kouakou Adjoumane</option>
+  <option>Kouakou Khofi Serge</option>
+  <option>Kouakou Koffi Ben</option>
+  <option>Kouakou Kouame David</option>
+  <option>Kouame Marnu Kouakou</option>
+  <option>Kouao Kouamé Norbert</option>
+  <option>Kouassi Odje Gobey Diane Marie Sylvestre</option>
+  <option>Kouyaté Kassoum</option>
+  <option>Kpla Kouadio Jean Fiacre Hermann</option>
+  <option>Kplohi née Diouga Mireille Joelle</option>
+  <option>Kra née Kahouma Nicole</option>
+  <option>Legbey Kouhonon Odile</option>
+  <option>Loba Kpassi Guillaume</option>
+  <option>Loukou Kouakou Urbain</option>
+  <option>Louoba Tiahue Adolphe</option>
+  <option>Mahan Hortense</option>
+  <option>Mel Mira Juliana</option>
+  <option>Mme Adom née Miézan Obrou Félicité</option>
+  <option>Mme Nahounou A. K. Sonia Valérie</option>
+  <option>Monnet Monnet</option>
+  <option>Monney Achiboni Romain</option>
+  <option>Monsekea nee Kouassi Akoua Ange</option>
+  <option>Monssan Eric Varèze</option>
+  <option>N'doua Konan Yves</option>
+  <option>N'guessan Kouamé Germain</option>
+  <option>N'guessan Kouassi Jérémi</option>
+  <option>Nabi Nongassida Isaac</option>
+  <option>Nando Oro Anne-Nathalie</option>
+  <option>Onamon Goua Christophe</option>
+  <option>Ouabio Stephane Serge</option>
+  <option>Ouattara Grâce Magnon Sita</option>
+  <option>Ouattara Yelanfi Cecile</option>
+  <option>Oulai Epse Yoman Keadjouhi Prudence</option>
+  <option>Oumar Fall</option>
+  <option>Ouol Lazeni Touré</option>
+  <option>Oussou Kouame Medard</option>
+  <option>Paul Yao Celestin</option>
+  <option>Quenum Elida Zita Valerie</option>
+  <option>Rebiere-Idiado Cheick Amed Andre</option>
+  <option>Saliou Fatahou</option>
+  <option>Samake Madous</option>
+  <option>Segui Agoh Françoise Micheline</option>
+  <option>Sekongo Ibrahim Kiklotialema</option>
+  <option>Siapo Kouassi</option>
+  <option>Silue Wakourgo Fanta</option>
+  <option>Siro Serges Hubert</option>
+  <option>Soffo Bertin</option>
+  <option>Soro Lacina</option>
+  <option>Soro Tchohona Valy</option>
+  <option>Soumahoro Seidou</option>
+  <option>Tano Serge</option>
+  <option>Tiene Mamadou</option>
+  <option>Touali Paulin</option>
+  <option>Toure Mamaro</option>
+  <option>Touré Bangaly</option>
+  <option>Touré Dramane Jean-François</option>
+  <option>Traore Epse Egue Mariame</option>
+  <option>Traore Fanta</option>
+  <option>Traore Ramatou</option>
+  <option>Yao Blé Larissa</option>
+  <option>Yao Dago Hubert</option>
+  <option>Yao Yao Alain-Claude</option>
+  <option>Yao Yves Cesar</option>
+  <option>Yatte Acho Gilles</option>
+  <option>Yoboue Atchelo Pascal</option>
+  <option>Yoboué Ahou Lucie Murielle Pulchérie</option>
+  <option>Zamblé Bi Boni Clermont</option>
+  <option>Zianeie Dethod Elodie</option>
+  <option>Zobo Epse Koudou Atte Felicite</option>
+  <option>Zoma Lydie Louise</option>
 </select>
 
 <label>Discipline</label>
@@ -228,57 +230,57 @@ th{
 
 <label>Classe</label>
 <select id="classe">
-<option>6e1</option>
-<option>6e2</option>
-<option>6e3</option>
-<option>6e4</option>
-<option>6e5</option>
-<option>6e6</option>
-<option>5e1</option>
-<option>5e2</option>
-<option>5e3</option>
-<option>5e4</option>
-<option>5e5</option>
-<option>5e6</option>
-<option>4e1</option>
-<option>4e2</option>
-<option>4e3</option>
-<option>4e4</option>
-<option>4e5</option>
-<option>4e6</option>
-<option>3e1</option>
-<option>3e2</option>
-<option>3e3</option>
-<option>3e4</option>
-<option>3e5</option>
-<option>3e6</option>
-<option>3e7</option>
-<option>3e8</option>
-<option>2ndeA1</option>
-<option>2ndeA2</option>
-<option>2ndeC1</option>
-<option>2ndeC2</option>
-<option>2ndeC3</option>
-<option>2ndeC4</option>
-<option>2ndeC5</option>
-<option>1èreA</option>
-<option>1èreC</option>
-<option>1èreD1</option>
-<option>1èreD2</option>
-<option>1èreD3</option>
-<option>1èreD4</option>
-<option>1èreD5</option>
-<option>TleA</option>
-<option>TleC</option>
-<option>TleD1</option>
-<option>TleD2</option>
-<option>TleD3</option>
-<option>TleD4</option>
-<option>TleD5</option>
+  <option>6e1</option>
+  <option>6e2</option>
+  <option>6e3</option>
+  <option>6e4</option>
+  <option>6e5</option>
+  <option>6e6</option>
+  <option>5e1</option>
+  <option>5e2</option>
+  <option>5e3</option>
+  <option>5e4</option>
+  <option>5e5</option>
+  <option>5e6</option>
+  <option>4e1</option>
+  <option>4e2</option>
+  <option>4e3</option>
+  <option>4e4</option>
+  <option>4e5</option>
+  <option>4e6</option>
+  <option>3e1</option>
+  <option>3e2</option>
+  <option>3e3</option>
+  <option>3e4</option>
+  <option>3e5</option>
+  <option>3e6</option>
+  <option>3e7</option>
+  <option>3e8</option>
+  <option>2ndeA1</option>
+  <option>2ndeA2</option>
+  <option>2ndeC1</option>
+  <option>2ndeC2</option>
+  <option>2ndeC3</option>
+  <option>2ndeC4</option>
+  <option>2ndeC5</option>
+  <option>1èreA</option>
+  <option>1èreC</option>
+  <option>1èreD1</option>
+  <option>1èreD2</option>
+  <option>1èreD3</option>
+  <option>1èreD4</option>
+  <option>1èreD5</option>
+  <option>TleA</option>
+  <option>TleC</option>
+  <option>TleD1</option>
+  <option>TleD2</option>
+  <option>TleD3</option>
+  <option>TleD4</option>
+  <option>TleD5</option>
 </select>
 
-<label>Plage horaire d'absence</label>
-<select id="horaire">
+<label>Plage horaire d'absence (sélection multiple possible)</label>
+<select id="horaire" multiple size="5">
   <option value="07h30-08h25">07h30-08h25</option>
   <option value="08h25-09h20">08h25-09h20</option>
   <option value="09h20-10h15">09h20-10h15</option>
@@ -313,31 +315,34 @@ function ajouter(){
   let prof = document.getElementById("prof").value;
   let matiere = document.getElementById("matiere").value;
   let classe = document.getElementById("classe").value;
-  let horaire = document.getElementById("horaire").value;
+  let horaires = Array.from(document.getElementById("horaire").selectedOptions).map(o=>o.value);
 
-  if(!date || prof=="Choisir professeur"){
-    alert("Remplir les champs");
+  if(!date || prof=="Choisir professeur" || horaires.length===0){
+    alert("Remplir les champs et sélectionner au moins une plage horaire");
     return;
   }
 
-  // Calcul de la durée de l'absence en heures
-  let heures = horaire.split("-");
-  let debut = heures[0].split("h");
-  let fin = heures[1].split("h");
+  let totalHeures = 0;
+  horaires.forEach(horaire=>{
+    let heures = horaire.split("-");
+    let debut = heures[0].split("h");
+    let fin = heures[1].split("h");
 
-  let debutMin = parseInt(debut[0])*60 + parseInt(debut[1]);
-  let finMin = parseInt(fin[0])*60 + parseInt(fin[1]);
-  let dureeMin = finMin - debutMin;
+    let debutMin = parseInt(debut[0])*60 + parseInt(debut[1]);
+    let finMin = parseInt(fin[0])*60 + parseInt(fin[1]);
+    let dureeMin = finMin - debutMin;
+    totalHeures += dureeMin / 60;
+  });
 
-  let dureeHeures = (dureeMin / 60).toFixed(2);
+  totalHeures = Math.round(totalHeures);
 
   data.push({
     date,
     prof,
     matiere,
     classe,
-    hR: dureeHeures + " h", // heure à rattraper = durée
-    hF: "" // heure rattrapée vide pour le PDF
+    hR: totalHeures + "H",
+    hF: ""
   });
 
   afficher();
@@ -377,6 +382,7 @@ function genererPDF(){
   const { jsPDF } = window.jspdf;
   let doc=new jsPDF();
   let largeur=doc.internal.pageSize.getWidth();
+  let hauteur=doc.internal.pageSize.getHeight();
 
   doc.text("LYCÉE MODERNE DE TREICHVILLE", largeur/2, 10, {align:"center"});
   doc.text("Année scolaire : 2025-2026", largeur/2, 16, {align:"center"});
@@ -397,9 +403,9 @@ function genererPDF(){
     body:tableau
   });
 
-  let y=doc.lastAutoTable.finalY+10;
-  let today=new Date().toLocaleDateString();
-  doc.text("Fait à Abidjan, le "+today, 14, y);
+  let text="Fait à Abidjan, le " + new Date().toLocaleDateString();
+  doc.text(text, largeur - 14, hauteur - 10, {align:"right"});
+
   doc.save("suivi_professeurs.pdf");
 }
 </script>
